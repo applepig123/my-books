@@ -16,7 +16,8 @@
   "dependencies": {
     "@brainhubeu/gatsby-docs-kit": "^1.0.1",
     "@brainhubeu/react-carousel": "^1.2.3",
-    "gatsby": "^1.9.270"
+    "gatsby": "^1.9.270",
+    "npm": "^6.5.0"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
