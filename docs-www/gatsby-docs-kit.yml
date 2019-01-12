@@ -2,16 +2,28 @@
   dir: ../docs
   url: /docs
   sidemenu:
+    - title: 介绍
+      dir: git/home
+      items: 
+        - title: git简介
+          file: git.md
+        - title: git服务器
+          file: server.md
+        - title: git客户端
+          file: client.md
     - title: git服务器
-      dir: gitlab
+      dir: git/gitlab
       items:
         - title: gitlab
           file: gitlab.md
     - title: git客户端
-      dir: git-client
+      dir: git/gitextensions
       items:
         - title: gitextensions
           file: gitextensions.md
+    - title: git客户端
+      dir: git/sourcetree
+      items:
         - title: sourcetree
           file: sourcetree.md
 - title: Parse-ext

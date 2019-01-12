@@ -11,9 +11,9 @@
 ## 二、新建项目
   >  
   1、进入Projects页面，点击New Project，进入创建页面  
-  ![avator](./img/gitlab/projects.jpg)
+  ![avator](./img/projects.jpg)
   2、输入必要的信息，点击创建  
-  ![avator](./img/gitlab/create.jpg)
+  ![avator](./img/create.jpg)
   ➀项目名称  
   ➁选择项目所在的组  
   ➂是项目仓库更为友好的URL，一般与项目名称保持一致即可，填写项目名词时，也会自动填充  
@@ -23,36 +23,36 @@
   公开库：所有人可以下载  
   ➄填写好以上信息后，点击create即可创建  
   3、创建成功后，进入项目页面  
-  ![avator](./img/gitlab/homepage.jpg)
+  ![avator](./img/homepage.jpg)
   红框标注处为项目的URL，有SSH和HTTP两种类型。SSH需要客户端上传SSH密钥，HTTP只要复制地址即可使用客户端克隆下来   
 
 ## 四、管理组
   >  
   1、新建组  
   菜单栏Group------New Group  
-  ![avator](./img/gitlab/group-1.jpg)
-  ![avator](./img/gitlab/group-2.jpg)
+  ![avator](./img/group-1.jpg)
+  ![avator](./img/group-2.jpg)
   1)组名称，组名称可以为字母、数字、空格、下划线、中划线和英文点号组成，且必须以字母或数字开头，不能使用中文  
   2)组详情  
   2、编辑或删除组  
-  ![avator](./img/gitlab/group-3.jpg)
-  ![avator](./img/gitlab/group-4.jpg)
-  ![avator](./img/gitlab/group-5.jpg)
+  ![avator](./img/group-3.jpg)
+  ![avator](./img/group-4.jpg)
+  ![avator](./img/group-5.jpg)
   在此页面可以编辑和删除组  
   3、添加组成员  
-  ![avator](./img/gitlab/group-6.jpg)
-  ![avator](./img/gitlab/group-7.jpg)
+  ![avator](./img/group-6.jpg)
+  ![avator](./img/group-7.jpg)
   添加组用户并赋予相应的权限。
-  ![avator](./img/gitlab/group-8.jpg)
+  ![avator](./img/group-8.jpg)
   4、修改成员的权限（owner用户操作）  
   点击左侧的Groups，然后点击当然的组。  
-  ![avator](./img/gitlab/group-9.jpg)
-  ![avator](./img/gitlab/group-10.jpg)
+  ![avator](./img/group-9.jpg)
+  ![avator](./img/group-10.jpg)
   然后点击左侧Members菜单进入。  
-  ![avator](./img/gitlab/group-11.jpg)
-  ![avator](./img/gitlab/group-12.jpg)
+  ![avator](./img/group-11.jpg)
+  ![avator](./img/group-12.jpg)
   修改想要修改的用户的权限并save。  
-  ![avator](./img/gitlab/group-13.jpg)
+  ![avator](./img/group-13.jpg)
 
 ## 五、用户组权限说明
   >  
