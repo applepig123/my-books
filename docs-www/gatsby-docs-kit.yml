@@ -11,17 +11,31 @@
           file: server.md
         - title: git客户端
           file: client.md
-    - title: git服务器
+    - title: git服务器 - gitlab
       dir: git/gitlab
       items:
-        - title: gitlab
-          file: gitlab.md
-    - title: git客户端
+        - title: 常用功能
+          file: common-funcs.md
+        - title: 管理员功能
+          file: admin-funcs.md
+        - title: 搭建
+          file: install.md
+        - title: 常见问题
+          file: question.md
+    - title: git客户端 - gitextensions
       dir: git/gitextensions
       items:
-        - title: gitextensions
-          file: gitextensions.md
-    - title: git客户端
+        - title: 安装
+          file: install.md
+        - title: 功能介绍
+          file: funcs.md
+        - title: 使用流程
+          file: use.md
+        - title: 配置SSH
+          file: ssh.md
+        - title: 常见问题
+          file: question.md
+    - title: git客户端 - sourcetree
       dir: git/sourcetree
       items:
         - title: sourcetree
