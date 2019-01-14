@@ -37,3 +37,9 @@
 点击提交，test.json会被提交到本地库
 左侧选择分支显示分支详情，可以查看该分支的提交历史，如下图中选择master分支，就显示了刚才的提交记录：
 ![avator](./img/sourcetree-operate-6.jpg)
+5、点击推送，弹出推送界面，点击推送，即可将本地修改内容推送到远程
+![avator](./img/sourcetree-operate-7.jpg)
+![avator](./img/sourcetree-operate-8.jpg)
+6、登陆gitlab，可以看到项目中多出了一个test.json文件  
+推送前：![avator](./img/sourcetree-operate-9.jpg)
+推送后：![avator](./img/sourcetree-operate-10.jpg)
