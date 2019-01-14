@@ -2,32 +2,23 @@
   dir: ../docs
   url: /docs
   sidemenu:
-    - title: 介绍
+    - title: git入门
       dir: git/home
       items: 
         - title: git简介
           file: git.md
-        - title: git服务器
-          file: server.md
+        - title: gitlab
+          file: gitlab.md
         - title: git客户端
-          file: client.md
-    - title: git服务器 - gitlab
-      dir: git/gitlab
+          file: sourcetree.md
+        - title: git使用demo
+          file: demo.md
+    - title: sourcetree与gitlab使用教程
+      dir: git/guides
       items:
-        - title: 常用功能
-          file: common-funcs.md
-        - title: 管理员功能
-          file: admin-funcs.md
-        - title: 搭建
-          file: install.md
-        - title: 常见问题
-          file: question.md
-    - title: git客户端 - gitextensions
-      dir: git/gitextensions
-      items:
-        - title: 安装
-          file: install.md
-        - title: 功能介绍
+        - title: 
+          file: clone.md
+        - title: clone.md
           file: funcs.md
         - title: 使用流程
           file: use.md

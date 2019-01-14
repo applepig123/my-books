@@ -1,4 +1,8 @@
-# 安装
+##一、下载地址
+  >https://sourceforge.net/projects/
+
+
+# 二、安装
   >  
   1、点击安装包，选择默认，点击确认  
   2、进入如下界面，可选安装。如果未安装git，可以勾选Install Git;KDiff3是在Merge代码时使用的，没有安装也可以勾选Install KDiff  
