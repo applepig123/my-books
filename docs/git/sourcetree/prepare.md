@@ -2,6 +2,6 @@
 ## 准备工作
 > * [安装git](../home/git.md)
 > * [安装sourcetree](../home/sourcetree.md)
-> * [注册gitlab账号](../home/gitlab.md)
+> * 向管理员申请gitlab账号
 
 
