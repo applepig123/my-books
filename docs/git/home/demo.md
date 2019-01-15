@@ -1,3 +1,6 @@
+
+# Git、SourceTree和Gitlab三者之间关系
+> 简单来说，Gitlab是存储在远端的代码，git是本地代码与远端代码沟通的桥梁，但git是完全命令行模式，对于新手来说操作不便，而SourceTree则是git的界面化的Git客户端，使用起来更加便捷。
 # gitlab与sourcetree使用入门
 ## 一、目标
 >  
