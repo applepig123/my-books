@@ -11,7 +11,7 @@
           file: gitlab.md
         - title: git客户端
           file: sourcetree.md
-        - title: git使用demo
+        - title: 使用demo
           file: demo.md
     - title: gitlab 与 sourcetree结合使用教程
       dir: git/sourcetree
@@ -21,7 +21,29 @@
         - title: 配置SSH Keys
           file: sshkeys.md
         - title: Sourcetree 设置 SSH
-          file: sourcetree-set.md
+          file: sourcetree-set.md  
+        - title: sourceTree工作流 
+          file: workflow.md
+        - title: sourceTree常用功能图解 
+          file: frequently-used.md
+        - title: sourceTree创建本地仓库 
+          file: dev-repository.md
+        - title: gitlab创建远程仓库 
+          file: org-repository.md
+        - title: sourceTree克隆项目 
+          file: clone-pjc.md  
+        - title: sourceTree检出分支 
+          file: detection-branch.md
+        - title: sourceTree分支与合并
+          file: branch-merge.md  
+        - title: sourceTree冲突与解决
+          file: conflict-resolution.md 
+        - title: sourceTree暂存、丢弃、移除文件 
+          file: file-crud.md 
+        - title: sourceTree本地提交以及拉取、推送 
+          file: file-operation.md
+        - title: sourceTree代码回退(回gun)
+          file: rollback.md
         - title: 使用sourcetree拉取gitlab端代码到本地
           file: pull.md
         - title: 建立开发分支
