@@ -22,8 +22,6 @@
           file: sshkeys.md
         - title: Sourcetree 设置 SSH
           file: sourcetree-set.md  
-        - title: sourceTree工作流 
-          file: workflow.md
         - title: sourceTree常用功能图解 
           file: frequently-used.md
         - title: sourceTree创建本地仓库 
@@ -32,6 +30,8 @@
           file: org-repository.md
         - title: sourceTree克隆项目 
           file: clone-pjc.md  
+        - title: sourceTree工作流 
+          file: workflow.md
         - title: sourceTree检出分支 
           file: detection-branch.md
         - title: sourceTree分支与合并
