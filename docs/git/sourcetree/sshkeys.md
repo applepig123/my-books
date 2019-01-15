@@ -19,7 +19,7 @@
 用记事本将公钥打开，复制公钥里面的内容  
 然后找到gitlab--->SSH Keys--->Key  
 如何找看下图：
-首先登录你的gitlab账号（没账号的去注册 gitlab注册()）  
+首先登录你的gitlab账号（[没账号的去注册 gitlab注册](../home/gitlab.md)）  
 登录成功后，鼠标点击右上方头像会出现一个下拉菜单，  
 ![](./img/sourcetree/stree_4.jpg)  
 点击 Settings，进入到下个界面  

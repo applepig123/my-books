@@ -24,7 +24,7 @@
           file: sourcetree-set.md
         - title: 使用sourcetree拉取gitlab端代码到本地
           file: pull.md
-        - title: 建立开发分支
+        - title: 建立分支
           file: branch.md
         - title: 提交更新代码
           file: push.md

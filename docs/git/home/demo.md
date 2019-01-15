@@ -9,7 +9,7 @@
 
 ## 三、sourcetree操作
 >  
-1、在gitlab的项目页面复制项目的URL
+1、在gitlab的项目页面复制项目的URL，此处使用HTTP协议的URL  
 2、打开sourcetree，使用克隆功能
 ![avator](./img/source-operate-1.jpg)
 ![avator](./img/source-operate-2.jpg)
@@ -28,13 +28,13 @@
 >  
 可以看到sourcetree中会出现该文件的信息
 ![avator](./img/sourcetree-operate-4.jpg)
-选中test.json，点击暂存所有或暂存选中，则test.json会变成代提交文件。
+选中test.json，点击暂存所有或暂存选中，则test.json会变成待提交文件。
 ![avator](./img/sourcetree-operate-5.jpg)
 ➀未暂存区，此处的文件在提交时不会被提交  
 ➁暂存区，此处的文件在提交会被提交  
 ➂此处显示文件的修改内容，有修改前和修改后的对比，方便用户在提交前最后审核一次  
 ➃本次提交的描述，一定要填写，否则无法提交  
-点击提交，test.json会被提交到本地库
+点击提交，test.json会被提交到本地库  
 左侧选择分支显示分支详情，可以查看该分支的提交历史，如下图中选择master分支，就显示了刚才的提交记录：
 ![avator](./img/sourcetree-operate-6.jpg)
 5、点击推送，弹出推送界面，点击推送，即可将本地修改内容推送到远程
