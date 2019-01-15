@@ -13,19 +13,21 @@
           file: sourcetree.md
         - title: git使用demo
           file: demo.md
-    - title: sourcetree与gitlab使用教程
-      dir: git/guides
+    - title: gitlab 与 sourcetree结合使用教程
+      dir: git/sourcetree
       items:
-        - title: 
-          file: clone.md
-        - title: clone.md
-          file: funcs.md
-        - title: 使用流程
-          file: use.md
-        - title: 配置SSH
-          file: ssh.md
-        - title: 常见问题
-          file: question.md
+        - title: 准备工作
+          file: prepare.md
+        - title: 配置SSH Keys
+          file: sshkeys.md
+        - title: Sourcetree 设置 SSH
+          file: sourcetree-set.md
+        - title: 使用sourcetree拉取gitlab端代码到本地
+          file: pull.md
+        - title: 建立开发分支
+          file: branch.md
+        - title: 提交更新代码
+          file: push.md
     - title: git客户端 - sourcetree
       dir: git/sourcetree
       items:
