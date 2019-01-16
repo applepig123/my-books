@@ -1,17 +1,12 @@
 <!--### 前言： 如果您想结合Gitlab和Sourcetree来实现代码管理，那么请看以下步骤。-->
-## 一、准备工作
-> * [安装git](../home/git.md)
-> * [安装sourcetree](../home/sourcetree.md)
-> * [注册gitlab账号](../home/gitlab.md)
 
-
-## 二、分支介绍
+## 一、分支介绍
 > ![avator](./img/branch/branch-1.jpg)
 图上显示有三个分支Master、Dev和Chongchong。  
 其中Master是默认就存在的一个分支，我们叫它主分支。Master和其他分支一样没有啥特殊之处，之所以几乎每一个仓库都有 master 分支，是因为 git init 命令默认创建它，并且大多数人都懒得去改动它。  
 使用分支意味着你可以把你的工作从开发主线上分离开来，保持主分支的稳定性。新特性和BUG修改都可以在不同的分支上进行开发和测试，这样规范了整个软件的开发流程。分支之间的互不影响这种特性可以增加团队合作的效率。  
 
-## 三、sourcetree上创建分支
+## 二、sourcetree上创建分支
 >1、点击分支，进入分支界面
 ![avator](./img/branch/branch-2.jpg)
 2、选择新分支，输入新分支名称，点击创建分支
@@ -19,7 +14,7 @@
 3、分支创建成功，sourcetree会自动切换到新建分支中
 ![avator](./img/branch/branch-4.jpg)
 
-## 四、分支实践
+## 三、分支实践
 >  
 1、主要分支  
 > * master：用来最终上线的分支，最终发布版本，整个项目中有且只有一个  
