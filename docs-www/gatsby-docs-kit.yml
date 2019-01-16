@@ -32,9 +32,11 @@
           file: clone-pjc.md  
         - title: sourceTree工作流 
           file: workflow.md
-        - title: sourceTree检出分支 
+        - title: sourceTree分支
+          file: branch.md
+        - title: sourceTree切换分支 
           file: detection-branch.md
-        - title: sourceTree分支与合并
+        - title: sourceTree合并分支
           file: branch-merge.md  
         - title: sourceTree冲突与解决
           file: conflict-resolution.md 
@@ -46,15 +48,8 @@
           file: rollback.md
         - title: 使用sourcetree拉取gitlab端代码到本地
           file: pull.md
-        - title: 建立分支
-          file: branch.md
         - title: 提交更新代码
           file: push.md
-    - title: git客户端 - sourcetree
-      dir: git/sourcetree
-      items:
-        - title: sourcetree
-          file: sourcetree.md
 - title: Parse-ext
   dir: ../docs
   url: /docs
