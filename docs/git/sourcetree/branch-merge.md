@@ -1,7 +1,7 @@
 # 功能描述
 合并分支功能可以将一个分支的代码合并如另一个分支中，如果两个有冲突，需要先解决冲突，才能完成合并。合并完成后，第二个分支将包含第一个分支的所有内容，第一个分支保持不变
 
-# sourcetree的合并功能
+# Sourcetree 合并功能
 如下图，有master与develop两个分支，现在将develop分支合并如master分支  
 
 ![avator](./img/branch/merge-branch-1.jpg)  
