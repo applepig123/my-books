@@ -38,7 +38,7 @@
           file: file-pull.md
         - title: 推送代码 
           file: file-push.md
-        - title: 代码回退(回gun)
+        - title: 代码回退
           file: rollback.md
         - title: 冲突与解决
           file: conflict-resolution.md 
