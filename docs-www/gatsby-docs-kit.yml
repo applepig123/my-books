@@ -2,7 +2,7 @@
   dir: ../docs
   url: /docs
   sidemenu:
-    - title: git入门
+    - title: 30分钟使用入门
       dir: git/home
       items: 
         - title: git简介
@@ -13,43 +13,48 @@
           file: sourcetree.md
         - title: 使用demo
           file: demo.md
-    - title: gitlab 与 sourcetree结合使用教程
+    - title: 使用教程
       dir: git/sourcetree
       items:
         - title: 准备工作
           file: prepare.md
         - title: 配置SSH Keys
           file: sshkeys.md
-        - title: Sourcetree 设置 SSH
+        - title: 设置 SSH
           file: sourcetree-set.md  
-        - title: sourceTree常用功能图解 
+        - title: 常用功能图解 
           file: frequently-used.md
-        - title: sourceTree创建本地仓库 
+        - title: 创建本地仓库 
           file: dev-repository.md
-        - title: gitlab创建远程仓库 
-          file: org-repository.md
-        - title: sourceTree克隆项目 
+        - title: 克隆项目 
           file: clone-pjc.md  
-        - title: sourceTree工作流 
-          file: workflow.md
-        - title: sourceTree分支
-          file: branch.md
-        - title: sourceTree切换分支 
-          file: detection-branch.md
-        - title: sourceTree合并分支
-          file: branch-merge.md  
-        - title: sourceTree冲突与解决
-          file: conflict-resolution.md 
-        - title: sourceTree暂存、丢弃、移除文件 
+        - title: 暂存文件 
           file: file-crud.md 
-        - title: sourceTree本地提交以及拉取、推送 
+        - title: 丢弃文件 
+          file: file-discard.md 
+        - title: 移除文件 
+          file: file-remove.md 
+        - title: 本地提交 
           file: file-operation.md
-        - title: sourceTree代码回退(回gun)
+        - title: 拉取代码
+          file: file-pull.md
+        - title: 推送代码 
+          file: file-push.md
+        - title: 代码回退(回gun)
           file: rollback.md
-        - title: 使用sourcetree拉取gitlab端代码到本地
-          file: pull.md
-        - title: 提交更新代码
-          file: push.md
+        - title: 冲突与解决
+          file: conflict-resolution.md 
+        - title: 工作流 
+          file: workflow.md 
+        - title: 分支
+          file: branch.md
+        - title: 切换分支 
+          file: detection-branch.md
+        - title: 合并分支
+          file: branch-merge.md 
+    - title: 高级教程
+      dir: git/sourcetree
+      items:
 - title: Parse-ext
   dir: ../docs
   url: /docs
