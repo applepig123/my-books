@@ -1,4 +1,4 @@
-# 分支介绍
+# Sourcetree 分支介绍
 
 ![avator](./img/branch/branch-1.jpg)  
 
@@ -21,7 +21,7 @@
 
 ![avator](./img/branch/branch-4.jpg)  
 
-# 分支实践
+# Sourcetree 分支实践
 
 1、主要分支  
 * master：用来最终上线的分支，最终发布版本，整个项目中有且只有一个  

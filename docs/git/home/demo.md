@@ -2,15 +2,15 @@
 # 前言
 简单来介绍一下Git、SourceTree和Gitlab三者之间关系，Gitlab是存储在远端的代码，git是本地代码与远端代码沟通的桥梁，但git是完全命令行模式，对于新手来说操作不便，而SourceTree则是git的界面化的Git客户端，使用起来更加便捷。  
 下面是个小demo,大家可以跟着以下步骤试试看。
-## 一、目标
+## 目标
 
 在gitlab上创建一个新项目，并使用sourcetree克隆至本地，在本地更新内容后，推送到gitlab上。
 
-## 二、gitlab操作。
+## Gitlab 操作。
 
-在gitlab上创建一个新的项目，参考 [gitlab](./gitlab.md) 中的简单使用。
+在gitlab上创建一个新的项目，参考简介中 [gitlab](./git.md) 简介下的简单使用。
 
-## 三、sourcetree操作
+## Sourcetree 操作
 
 1、在gitlab的项目页面复制项目的URL，此处使用HTTP协议的URL  
 2、打开sourcetree，使用克隆功能  
