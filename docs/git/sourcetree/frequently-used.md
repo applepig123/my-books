@@ -1,5 +1,5 @@
 
-# sourcetree 常用功能
+# Sourcetree 常用功能
  
 
 ![](./img/sourcetree/stree_9.jpg)  

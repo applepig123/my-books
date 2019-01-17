@@ -1,6 +1,4 @@
-# gitlab介绍
-
-## 一、简介
+## Gitlab简介
   
 GitLab 是一个用于仓库管理系统的开源项目。使用Git作为代码管理工具，并在此基础上搭建起来的web服务。  
 
@@ -8,7 +6,7 @@ GitLab 是一个用于仓库管理系统的开源项目。使用Git作为代码�
 
 当前公司的gitlab地址为：https://git.gongcheng-electric.com/
 
-## 二、简单使用
+## 简单使用
 1、向管理员申请分配账号  
 2、登陆gitlab地址，使用分配的账号密码登陆  
 

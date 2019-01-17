@@ -1,4 +1,4 @@
-#sourceTree工作流 
+# SourceTree工作流 
 1、点击git工作流  
 
 ![](./img/sourcetree/stree_10.jpg)  
@@ -19,13 +19,13 @@
 
 ![](./img/sourcetree/stree_14.jpg)   
 
-* 注：如此就可以在此状态下开发功能了。  
+注：如此就可以在此状态下开发功能了。  
 
-7、当开发完成后，再点击git工作流，会弹出一个框，选择“完成功能”然后直接确认  
+6、当开发完成后，再点击git工作流，会弹出一个框，选择“完成功能”然后直接确认  
 
 ![](./img/sourcetree/stree_15.jpg)  
 
-* 注：以上操作完成后，再看左边分支，工作流的分支不见了，自动合并到了我们的develop开发分支  
+注：以上操作完成后，再看左边分支，工作流的分支不见了，自动合并到了我们的develop开发分支  
 
 ![](./img/sourcetree/stree_16.jpg)
 
