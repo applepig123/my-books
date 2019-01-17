@@ -27,22 +27,22 @@ ssh-keygen -t rsa -C “邮箱地址”
 
 id\_rsa就是私钥，id\_rsa.pub是公钥。    
 
-4、用记事本将公钥打开，复制公钥里面的内容 ，然后找到gitlab--->SSH Keys--->Key  
- 
-如何找看下图：  
-（1）首先登录你的gitlab账号（没账号的去注册 gitlab注册()），登录成功后，鼠标点击右上方头像会出现一个下拉菜单，  
+4、用记事本将公钥打开，复制公钥里面的内容   
+<!-- ，然后找到gitlab --- SSH Keys --- Key -->
+# 配置 SSH Keys
+1、首先登录你的gitlab账号（没账号的去注册 gitlab注册()），登录成功后，鼠标点击右上方头像会出现一个下拉菜单，  
 
 ![](./img/sourcetree/stree_4.jpg)  
 
-（2）点击 Settings，进入到下个界面  
+2、点击 Settings，进入到下个界面  
 
 ![](./img/sourcetree/stree_5.jpg)   
 
-（3）在左侧导航栏中便能看到 SSH Skeys，点击 SSH Skeys 进入下个界面，  
+3、在左侧导航栏中便能看到 SSH Skeys，点击 SSH Skeys 进入下个界面，  
 
 ![](./img/sourcetree/stree_6.jpg)  
 
-（4）将复制好的公钥粘贴至红框处  
+4、将复制好的公钥粘贴至红框处  
 
 ![](./img/sourcetree/stree_3.jpg)  
 

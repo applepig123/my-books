@@ -1,4 +1,4 @@
-# SourceTree工作流 
+# SourceTree 工作流 
 1、点击git工作流  
 
 ![](./img/sourcetree/stree_10.jpg)  

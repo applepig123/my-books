@@ -1,5 +1,5 @@
 
-# sourcetree SSH设置
+# Sourcetree SSH设置
 
 注： 此项设置是配置了 SSH Keys 的用户需要设置的，如果您使用的是 HTTP 的形式，可跳过此步骤。  
 

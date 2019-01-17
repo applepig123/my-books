@@ -5,13 +5,11 @@
     - title: 30分钟使用入门
       dir: git/home
       items: 
-        - title: git简介
+        - title: 简介
           file: git.md
-        - title: gitlab
-          file: gitlab.md
-        - title: git客户端
+        - title: 客户端安装
           file: sourcetree.md
-        - title: 使用demo
+        - title: 项目创建
           file: demo.md
     - title: 使用教程
       dir: git/sourcetree
@@ -40,7 +38,7 @@
           file: file-pull.md
         - title: 推送代码 
           file: file-push.md
-        - title: 代码回退(回gun)
+        - title: 代码回退
           file: rollback.md
         - title: 冲突与解决
           file: conflict-resolution.md 
