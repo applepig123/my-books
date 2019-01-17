@@ -51,8 +51,10 @@
         - title: 合并分支
           file: branch-merge.md 
     - title: 高级教程
-      dir: git/sourcetree
+      dir: git/advance
       items:
+        - title: 在Gitlab Pages上部署静态网站
+          file: gitlab-pages.md
 - title: Parse-ext
   dir: ../docs
   url: /docs
