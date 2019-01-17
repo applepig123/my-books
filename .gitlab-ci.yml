@@ -3,8 +3,8 @@ image: node:latest
 pages:
   script:
   - cd docs-www
-  - yarn install
-  - yarn run build
+  - npm install
+  - npm run build
   - mkdir .public
   - cp -r public/* .public
   - mv .public ../public 
