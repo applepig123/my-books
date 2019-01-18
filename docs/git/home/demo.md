@@ -6,7 +6,7 @@
 
 在gitlab上创建一个新项目，并使用sourcetree克隆至本地，在本地更新内容后，推送到gitlab上。
 
-## Gitlab 操作。
+## Gitlab 操作
 
 在gitlab上创建一个新的项目，参考简介中 [gitlab](./git.md) 简介下的简单使用。
 
