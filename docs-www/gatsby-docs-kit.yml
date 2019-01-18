@@ -51,14 +51,50 @@
         - title: 合并分支
           file: branch-merge.md 
     - title: 高级教程
-      dir: git/sourcetree
+      dir: git/advance
       items:
-- title: Parse-ext
-  dir: ../docs
-  url: /docs
+        - title: 在Gitlab Pages上部署静态网站
+          file: gitlab-pages.md
+- title: nextcloud用户文档
+  dir: ../docs/nextcloud-user
+  url: nextcloud-user
   sidemenu:
-    - title: 接口文档
-      dir: parse-ext
+    - title: 入门教程
+      dir: new-user
       items:
-        - title: 接口文档
-          file: cli-commands.md
+        - title: 简单介绍
+          file: introduce.md
+        - title: 客户端安装
+          file: client-install.md
+        - title: 初次使用
+          file: first-try.md
+    - title: 功能教程
+      dir: functions
+      items:
+        - title: 主界面介绍
+          file: user-setting.md
+        - title: 菜单
+          file: menu.md
+        - title: 常规设置
+          file: general.md
+        - title: 编辑忽略文件
+          file: ignore-file.md
+        - title: 网络设置
+          file: network.md
+        - title: 同步文件
+          file: synchronization.md
+        - title: 动态
+          file: activity.md
+        - title: 添加新帐户
+          file: add-user.md
+        - title: 状态图标
+          file: status.md
+        - title: 从桌面共享
+          file: share-desktop.md
+        - title: 服务器通知
+          file: information.md
+        - title: 冲突
+          file: conflict.md
+    - title: 高级教程
+      dir: high-grade
+      items:

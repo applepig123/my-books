@@ -1,0 +1,19 @@
+image: node:latest
+
+pages:
+  script:
+  - cd docs-www
+  - yarn install
+  - yarn run build
+  - mkdir .public
+  - cp -r public/* .public
+  - mv .public ../public 
+  artifacts:
+    paths:
+    - public
+  cache:
+    paths:
+      - ./docs-www/node_modules
+  only:
+  - master
+
