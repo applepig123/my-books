@@ -8,7 +8,7 @@
 
 ## Gitlab 操作
 
-在gitlab上创建一个新的项目，参考简介中 [gitlab](./git.md) 简介下的简单使用。
+在gitlab上创建一个新的项目，参考简介中 gitlab 简介下的简单使用。
 
 ## Sourcetree 操作
 
