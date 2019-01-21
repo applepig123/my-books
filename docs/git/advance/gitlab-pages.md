@@ -66,3 +66,50 @@ pages:
 ### 5、提交
 将.gitlab-ci.yml文件提交到Gitlab上后，以后有提交，gitlab-ci都会自动进行构建打包发布。
 
+### 6、访问页面
+如果你有在上面配置开启Pages时配置了域名了，那么直接访问：http://你的Git账号.域名/工程名 ，<br/>
+例如：
+
+http://xiaowang.mypages.com/project01
+
+## 三、无域名访问网站
+### 1、配置Nginx
+找到Pages的发布位置，和GitLab内置Nginx的位置，分别如下：
+```
+Pages部署目录：/var/opt/gitlab/gitlab-rails/shared/pages
+
+内置Nginx目录：/var/opt/gitlab/nginx
+```
+编辑nginx目录下的conf/gitlab-pages.conf文件，内容如下：
+```
+server {
+  listen 6869; ## 端口根据需要填写
+  server_name 10.21.100.200; ## IP根据实际情况填写
+  server_tokens off; ## Don't show the nginx version number, a security best practice
+
+  ## Disable symlink traversal
+  disable_symlinks on;
+
+  access_log  /var/log/gitlab/nginx/gitlab_pages_access.log gitlab_access;
+  error_log   /var/log/gitlab/nginx/gitlab_pages_error.log;
+
+  # Pass everything to pages daemon
+  location / {
+    # 指向pages的发布目录
+    root /var/opt/gitlab/gitlab-rails/shared/pages;
+    index index.html;
+  }
+
+  # Define custom error pages
+  error_page 403 /403.html;
+  error_page 404 /404.html;
+}
+```
+### 2、重启Gitlab
+使用以下命令重启Gitlab
+gitlab-ctl restart nginx
+
+### 3、访问页面
+访问页面：http://IP:端口/gitlab账号/工程名/public/ ，<br/>
+例如：http://10.21.100.200:6869/xiaowang/project01/public/#/
+
