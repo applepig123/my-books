@@ -106,8 +106,10 @@ server {
 }
 ```
 ### 2、重启Gitlab
-使用以下命令重启Gitlab
-gitlab-ctl restart nginx
+使用以下命令重启Gitlab<br/>
+```
+sudo gitlab-ctl restart nginx
+```
 
 ### 3、访问页面
 访问页面：http://IP:端口/gitlab账号/工程名/public/ ，<br/>
