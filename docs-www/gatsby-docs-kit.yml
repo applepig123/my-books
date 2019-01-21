@@ -98,3 +98,39 @@
     - title: 高级教程
       dir: high-grade
       items:
+- title: mattermost用户文档
+  dir: ../docs/mattermost-user
+  url: mattermost-user
+  sidemenu:
+    - title: 入门教程
+      dir: new-user
+      items:
+        - title: 简单介绍
+          file: introduce.md
+        - title: 客户端
+          file: client-install.md
+        - title: 初次使用
+          file: first-try.md
+    - title: 功能教程
+      dir: functions
+      items:
+        - title: 服务器管理
+          file: server-manager.md
+        - title: 应用选项
+          file: client-setting.md
+        - title: 配置通知
+          file: notification-setting.md
+        - title: 组织对话
+          file: organize-chat.md
+        - title: 搜索
+          file: search.md
+        - title: 创建团队
+          file: construct-team.md
+        - title: 管理会员
+          file: charge-partner.md
+        - title: 消息编辑
+          file: message-edit.md
+
+    - title: 高级教程
+      dir: high-grade
+      items:
