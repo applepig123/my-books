@@ -64,7 +64,12 @@ pages:
 ```
 
 ### 5、提交
-将.gitlab-ci.yml文件提交到Gitlab上后，以后有提交，gitlab-ci都会自动进行构建打包发布。
+将.gitlab-ci.yml文件提交到Gitlab上后，以后有提交，gitlab-ci都会自动进行构建打包发布。<br/>
+
+在Gitlab->CI/CD->Pipelines下，可以看到正在进行的构建及发布的Job
+![avator](./img/gitlab-ci-3.jpg)
+成功之后
+![avator](./img/gitlab-ci-4.jpg)
 
 ### 6、访问页面
 如果你有在上面配置开启Pages时配置了域名了，那么直接访问：http://你的Git账号.域名/工程名 ，<br/>
