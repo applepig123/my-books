@@ -118,5 +118,5 @@ sudo gitlab-ctl restart nginx
 
 ### 3、访问页面
 访问页面：http://IP:端口/gitlab账号/工程名/public/ ，<br/>
-例如：http://10.21.100.200:6869/xiaowang/project01/public/#/
+例如：http://10.21.100.200:6869/xiaowang/project01/public/
 
