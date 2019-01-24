@@ -55,6 +55,8 @@
       items:
         - title: 在Gitlab Pages上部署静态网站
           file: gitlab-pages.md
+        - title: gitlab ci与docker集成
+          file: gitlab-docker.md
 - title: nextcloud用户文档
   dir: ../docs/nextcloud-user
   url: nextcloud-user
